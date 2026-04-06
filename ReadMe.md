@@ -11,7 +11,10 @@ and $V \in \mathbb{R}^{r \times m}$ such that:
 - $A \approx U V $
 
 This structure is particularly useful for **clustering and representation learning**.
-
+Please refer to our paper for more details:  
+> **L. Hou, D. Chu*, and L.-Z. Liao.**  
+> *A fast block coordinate descent method for orthogonal nonnegative matrix factorization.*  
+> *(To appear in SIAM Journal on Matrix Analysis and Applications, SIMAX).*
 ---
 
 ## Dataset
