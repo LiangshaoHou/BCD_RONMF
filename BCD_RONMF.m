@@ -20,6 +20,10 @@ function [F,U,V,gap_vec]=BCD_RONMF(A,U0,V0,MaxIter)
 %   Alternating Block Coordinate Descent (BCD):
 %     - Fix V, update U via its explict-solution
 %     - Fix U, update V via its explict-solution
+% Please refer to our paper for more details:  
+% **L. Hou, D. Chu*, and L.-Z. Liao.**  
+% *A fast block coordinate descent method for orthogonal nonnegative matrix factorization.*  
+% *(To appear in SIAM Journal on Matrix Analysis and Applications, SIMAX).*
 
 % Initialization
 F = [];                              % Objective value history
